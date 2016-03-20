@@ -1,0 +1,28 @@
+#bio p{
+    font-size: 22px;
+    text-align: left;
+}
+
+#outreach-container h3{
+    text-align: left;
+    color: purple;
+    
+}
+
+#outreach-container p
+{
+    text-align: left; 
+    font-size: 16px;
+}
+
+#outreach-container li
+{
+    text-align: left; 
+    font-size: 20px;
+}
+
+#contact-info p
+{
+    font-size: 20px;
+    color: white;
+}

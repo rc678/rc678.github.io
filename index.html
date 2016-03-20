@@ -1,100 +1,452 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="rc678.github.io : My personal website. ">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <title>Rosheen Chaudhry</title>
 
-    <title>rc678.github.io</title>
-  </head>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-  <body>
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/rc678">View on GitHub</a>
-          <h1 id="project_title">Rosheen Chaudhry</h1>
-          <h2 id="project_tagline">Aspiring Software Developer </h2>
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 
-        </header>
-    </div>
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <!--Links to the tab that was clicked -->
-        <div class="tabs">
-    <ul class="tab-links">
-        <li class="active"><a href="#tab1">About Me</a></li>
-        <li><a href="#tab2">Resume</a></li>
-        <li><a href="#tab3">Projects</a></li>
-        <li><a href="#tab4">Contact</a></li>
-    </ul>
 
-    <div class="tab-content">
-        <div id="tab1" class="tab active">
-            <p> I am a self-motivated Computer Science undergraduate student at Rutgers University, Douglass Residential College.  </p>
-            <p> My current interests and programming projects pertain to web development. I have taught myself most of my web development skillset and I continually try to learn as much as I can.  </p>
-            <p> I love to volunteer in my free time! I am involved in an outreach organization called Douglass-Dimacs Computing Corps. In this club, I created and led programming projects in order to expose minorities to the field of Computer Science.</p>
-            <p> I am always trying to learn about new technologies. Currently, I am learning about backend development using frameworks such as Ruby on Rails. </p>
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#bio">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#outreach">Outreach</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-        <div id="tab2" class="tab">
-          <p><a href="https://drive.google.com/file/d/0B8dlP1JMU140WlRtRXNVSUV0aDQ/view?usp=sharing">Here is a link to my resume</a></p>
-          <p>For any inquiries, please contact me at <strong> rosheenmail@gmail.com </strong></p>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Software Developer</div>
+                <div class="intro-heading">Rosheen Chaudhry</div>
+            </div>
         </div>
+    </header>
 
-        <div id="tab3" class="tab">
-            <h4> Bittorrent-Client </h4>
-            <p> <strong>Tools:</strong> Java </p>
-            <p> <strong>Description:</strong> Multithreaded Java application with a graphical user interface that allows the user to download a torrent file by
-            communicating with a tracker to get a list of peers and simulataneously downloading pieces of the file.
-            <a href="https://github.com/davidrubin9/Internet-Technology"> Link </a></p>
-
-            <h4> SketchIt </h4>
-            <p> <strong>Tools:</strong> HTML5, CSS3, JavaScript/jQuery </p>
-            <p> <strong>Description:</strong> Web application allows the user to draw images using his/her mouse. Similar to an Etch-a-Sketch.
-            <a href="http://rc678.github.io/Sketch-It">Link</a></p>
-
-            <h4> FemInformed </h4>
-            <p> <strong>Tools: </strong> HTML5, CSS3, JavaScript/jQuery, Bootstrap framework, JSON </p>
-            <p> <strong>Description:</strong> Web application that explains different issues affecting women today.
-            Parsed the JSON file obtained from using New York Times api in order to get the articles. 
-            <a href="http://rc678.github.io/Fem-Informed"> Link </a></p>
-
-            <h4> Llappos </h4>
-            <p> <strong>Tools: </strong> HTML5, CSS3, JavaScript/jQuery/jQueryUI, Bootstrap framework</p>
-            <p> <strong>Description:</strong> Website about a fictional company and its employees.
-            <a href="http://rc678.github.io/Llappos"> Link </a></p>
+    <!-- Biography Section -->
+    <section id="bio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About </h2>
+                </div>
+            </div>
+            <div class="row text-center" id="bio">
             
-            <h4> Ruby TicTacToe </h4>
-            <p> <strong>Tools:</strong> Ruby </p>
-            <p> <strong>Description:</strong> A command line version of the game TicTacToe written in Ruby. <a href="https://github.com/rc678/Ruby-practice/tree/master/tictactoe"> Link </a></p>
-
+                    <p>Hi, I'm <strong>Rosheen Chaudhry</strong>! I am currently a <strong>software developer, Co-op at Colgate-Palmolive</strong>. At Colgate, I have completed many projects that involve <strong>speeding up and optimizing</strong> their existing systems. You can see more details about the projects on my resume</p>
+                    <br>
+                    <p>I will graduate Rutgers University, Douglass Residential College in <strong> May 2016 with a 
+                        BS in Computer Science</strong>. Douglass Residential College is the only "Women's Residential College" in the US which means that it is the only women's college within a larger University. </p>
+                    <br>
+                    
+                    <p>I am also heavily involved with the women in technology community at Rutgers
+                    University. I am a member of the Douglass-Dimacs Computing Corps in which I help expose and encourage middle school girls and girl scouts about the tech field. I do this through teaching CS in an after school club and holding workshops for the girl scouts. I am also a <strong>lead events organizer</strong> for HackHers, the Rutger's women's hackathon. I assisted in planning and budgeting for events during the hackathon with the help of a small team of people. In addition, I contacted company and academic representatives to give talks during the hackathon</p>
+                    
+                    <br>
+                    
+                    <p>Furthermore, I have taught many technical workshops to the students at Rutgers. I have given talks about <strong>HTML5, CSS3, JavaScript, Bootstrap, Git, and much more </strong>. Overall, I am very passionate about programming, teamwork, and promoting gender diversity in the technology field.  </p>
+            
+                
         </div>
+    </section>
 
-        <div id="tab4" class="tab">
-            <p> For any inquiries, please feel free to contact me by email or phone. </p>
-            <p> <strong>Email:</strong> rosheenmail@gmail.com </p>
-            <p> <strong>Mobile:</strong> 732-850-4822 </p>
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Portfolio</h2>
+                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/FemInformed%20-%20preview.JPG" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>FemInformed</h4>
+                        <p class="text-muted">"Best Web Application" at HackHers</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/SteamWish%20-%20preview.JPG" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>SteamWish</h4>
+                        <p class="text-muted">"Best Project" in my Database Class</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/peer%20-%20preview.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Bittorrent Client</h4>
+                        <p class="text-muted">Internet Technology Project</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/Virtual-Sketch-It%20-%20preview.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Virtual Sketch-It</h4>
+                        <p class="text-muted">Developed at PearlHacks 2015</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/scraping%20-%20preview.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>SteamScraper</h4>
+                        <p class="text-muted">Web Scraper for the Steam Store</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/octocat%20-%20preview.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>More at Github</h4>
+                        <p class="text-muted">View more of my projects on Github</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="outreach">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Outreach</h2>
+                    <h3 class="section-subheading text-muted">I am really interested in promoting diversity in tech and I am involved with many outreach initiatives including:</h3>
+                    <div id="outreach-container">
+                    
+                        <h3> Douglass-Dimacs Computing Corps - Project Manager</h3>
+                        <p> This is an initiative that involves teaching young girls about Computer Science
+                        and programming. We have have workshops for local girl scout troops, teach at a middle school
+                            every other week, present our work at the STARS Summer conference, and teach the local community                             about programming on Rutgers Day. </p>
+                        <ul>
+                            <li><a href="http://dimacs.rutgers.edu/DDCC/">Douglass-Dimacs Computing Corps Website</a></li>
+                            <li><a href="https://issuu.com/targum_editor/docs/dt_10-04/1">Computing Corps Recieve Grant from ATT</a></li>
+                            <li><a href="http://patch.com/new-jersey/newbrunswick/middle-school-girls-get-head-start-computer-science-help-rutgers-students"> Middle School Girls Get Head Start in CS with Help of Rutgers Students</a></li>
+                        </ul>
+                        <br>
+                        <h3>Women in Computer Science - Lead Events Organizer</h3>
+                        <p>As an <b>Events Lead Organizer</b> for HackHers, I assisted with budgeting for events, teaching 
+                        workshops, and contacting company/academic representatives to speak at the hackathon.</p>
+                        <ul>
+                            <li><a href="http://www.dailytargum.com/article/2016/02/rutgers-students-gather-to-compete-learn-more-about-coding"> Rutgers Students Gather to Compete, Learn More About Coding </a></li>
+                            <li><a href="http://i-am.rutgers.edu/2015/03/hack-hers/">HackHers</a></li>
+                            <li><a href="http://njtechweekly.com/art/2601-rutgers-hackhers-hackathon-encourages-women-to-get-excited-about-coding/">Rutgers HackHERS Hackathon Encourages Women to Get Excited about Coding</a></li>
+                            <li><a href="http://www.mycentraljersey.com/story/news/local/new-jersey/2015/02/08/women-empower-women-rutgers-hackhers-hackathon/23079729/">Women Empower Women at Rutger's HackHers hackathon</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="contact" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contact</h2>
+                    <!--<h3 class="section-subheading text-muted">The best way to contact me is through email</h3>-->
+                    <div id="contact-info">
+                        <p><b>EMAIL: </b> rosheenmail@gmail.com </p>
+                        <p><b>CELL PHONE: </b> 732-850-4822 </p>
+                        <p><b>RESUME: </b> <a href="">Link to Rosheen Chaudhry's resume</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Rosheen Chaudhry 2015 </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Fem-Informed</h2>
+                            <p class="item-intro text-muted"> <a href="http://rc678.github.io/Fem-Informed/"> FemInformed Demo Link </a></p>
+                            <img class="img-responsive img-centered" src="img/portfolio/FemInformed.jpg" alt="">
+                            <p>This "hack" hopes to inform people of issues that affect women in the modern world. I listed four relevent New York Times articles related to women's rights issues. This app is optimized for Desktop usage. </p>
+                            
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
-      </section>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>SteamWish</h2>
+                            <p class="item-intro text-muted"><a href="http://steam-wish.herokuapp.com/"> SteamWish Demo Link</a></p>
+                            <img class="img-responsive img-centered" src="img/portfolio/steamwish.jpg" alt="">
+                            <p></p>
+                            <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Bittorrent Client</h2>
+                            <a href="https://github.com/rc678/Bittorrent-Client">Link to Source Code</a>
+                            <img class="img-responsive img-centered" src="img/portfolio/peer.jpg" alt="not found" height="400px" width="400px">
+                            <p>This was a school project where we were provided the Bencoding classes. However,
+                            we were required to implement communication with the tracker and establishing a Peer-to-Peer
+                            connection with other peers in order to download pieces of a file. </p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Virtual SketchIt</h2>
+                            <a href="https://github.com/rc678/Virtual-Sketch-It">Link to Code (Need Leap Motion for Demo) </a>
+                            <img class="img-responsive img-centered" src="img/portfolio/Virtual-Sketch-It.jpg" alt="pic not found">
+                            <p>Wrote a web application that utilized the Leap Motion in order to draw pixel art in 
+                            the air using your hand or fingers. Independently developed at Pearl Hacks 2015.</p>
+                            
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="javascripts/main.js"></script>
-  </body>
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>SteamScraper</h2>
+                            <a href="">Link to Source Code</a>
+                            <img class="img-responsive img-centered" src="img/portfolio/scraping.jpg" alt="">
+                            <p>This project scrapes the Steam Store and downloads the information about the game
+                            on the store. It then takes this basic information and writes it to an Excel file in
+                            order to be uploaded to AWS cloud hosted database.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>More on Github</h2>
+                            <img class="img-responsive img-centered" src="img/portfolio/octocat.jpg" alt="Github link">
+                            <p>View more of my projects on github. <strong><a href="https://github.com/rc678?tab=repositories">Link to my Github projects</a></strong></p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
+
+</body>
+
 </html>
